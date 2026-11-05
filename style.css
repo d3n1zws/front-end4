@@ -72,3 +72,12 @@
     font-size : 70px;
     color: #fff;
 }
+
+#header > .title
+{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    align-content: center;
+    height : 400px;
+}
