@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    position: fixed;
+    top : 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.menu > i
+{
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.logo > img
+{
+    width: 200px;
+    margin-right: 100px;
+}
+.nav-list
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list > li
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+.nav-list > li > a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color :#fff;
+    font-size: large;
+}
+#header
+{
+    background-image: url(./img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+.sticky
+{
+    position: sticky;
+    top : 0px;
+    background-color: #212529;
+    height : 80px;
+}
+#header > .title > h2
+{
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+#header > .title > h1
+{
+    font-size : 70px;
+    color: #fff;
+}
+#header > .title
+{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    align-content: center;
+    height : 400px;
+}
