@@ -45,7 +45,7 @@
     color :#fff;
     font-size: large;
 }
-#header
+.background
 {
     background-image: url(./img/header-bg.jpg);
     background-size: cover;
@@ -61,22 +61,155 @@
     background-color: #212529;
     height : 80px;
 }
-#header > .title > h2
+.header-title > .title > h2
 {
     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     color: #fff;
 }
-#header > .title > h1
+.header-title> .title > h1
 {
     font-size : 70px;
     color: #fff;
 }
-#header > .title
+.header-title
 {
-    display: grid;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+}
+.header-title > .title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.logo
+{
+    position: relative;
+    top : 0px;
+}
+.more-section
+{
+    background-color: #ffc800;
+    padding: 20px 30px;
+    width: fit-content;
+    margin: 40px auto;
+    border-radius : 10px;
+}
+.more-section > a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color : white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.service-title > a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color : black;
+    font-weight: bold;
+}
+.service-title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.service
+{
+    margin-top: 70px;
+}
+.service-title1 
+{
+    font-size: 50px;
+}
+.service-title2
+{
+    font-size : 20px
+}
+.service-logo > i
+{
+    font-size: 60px;
+    color : white;
+}
+.service-logo
+{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    background-color:  #ffc800;
     justify-content: center;
-    align-items: end;
-    align-content: center;
-    height : 400px;
+    align-items: center;
+    border-radius: 100%;
+}
+.service-text > a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: #212529;
+}
+.service-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.service-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : 30px;
+    list-style: none;
+}
+.service-infos
+{
+    margin : 50px 50px;
+}
+.service-text1
+{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.service-list > li
+{
+    margin : 50px;
+    text-align: center;
+}
+.service-logo
+{
+    position: relative;
+    left : 70px;
+}
+.portofolio-text
+{
+    height: 70px;
+    justify-content: center;
+}
+.portofolio-title > a
+{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #212529;
+}
+.portofolio-title1
+{
+    font-size: 50px;
+    margin: 20px;
+}
+.portofolio-title2
+{
+    font-size: 20px;
 }
