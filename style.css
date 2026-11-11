@@ -315,15 +315,29 @@
 }
 .about-title > h1
 {
+    font-size: 50px;
     text-align: center;
     justify-content: center;
 }
 .about-title > p
 {
+    font-size: larger;
     text-align: center;
     justify-content: center;
 }
 .about-title
 {
     margin : 70px;
+}
+.team-title > h1
+{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.team-title > p
+{
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
 }
