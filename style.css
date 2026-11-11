@@ -325,7 +325,7 @@
     text-align: center;
     justify-content: center;
 }
-.about-title
+.about-title, .team-title
 {
     margin : 70px;
 }
@@ -340,4 +340,45 @@
     font-size: larger;
     text-align: center;
     justify-content: center;
+}
+.icons 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.team-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.team-item-list
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.team-img > img
+{
+    width: 250px;
+    height: 250px;
+    padding : 10px;
+    background-color: rgb(201, 200, 200);
+    border-radius: 100%;
+}
+.team 
+{
+    margin-top : 100px;
+}
+.icons
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icons > li > i
+{
+    font-size: 30px;
 }
