@@ -381,4 +381,252 @@
 .icons > li > i
 {
     font-size: 30px;
+
+}
+/* CLIENTS SECTION */
+
+.clients {
+    margin-top: 100px;
+    width: 100%;
+    height: 118px;
+    background-color: #fff;
+}
+
+.clients-container {
+    width: 83%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-logo {
+    color: #cbd0d6;
+}
+
+/* Microsoft */
+
+.microsoft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.microsoft h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.microsoft-icon {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3px;
+}
+
+.microsoft-icon span {
+    background-color: #cbd0d6;
+}
+
+/* Google */
+
+.google {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+/* Facebook */
+
+.facebook {
+    font-family: Arial, sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+/* IBM */
+
+.ibm {
+    font-family: monospace;
+    font-size: 53px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    background: repeating-linear-gradient(
+        to bottom,
+        #cbd0d6 0px,
+        #cbd0d6 3px,
+        transparent 3px,
+        transparent 6px
+    );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    width: 100%;
+    min-height: 687px;
+    background-color: #212529;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 95px 0 30px;
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* TITLE */
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.contact-heading h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.contact-heading p {
+    color: #777f86;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* FORM */
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+}
+
+/* LEFT SIDE */
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    height: 66px;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    outline: none;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-box input::placeholder {
+    color: #cbd0d6;
+    opacity: 1;
+}
+
+.error .input-box input {
+    border: 1px solid #dc3545;
+}
+
+.error small {
+    display: block;
+    color: #dc3545;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.error-icon {
+    position: absolute;
+    right: 12px;
+    top: 24px;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #dc3545;
+    border-radius: 50%;
+    color: #dc3545;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 13px;
+}
+
+/* RIGHT SIDE */
+
+.form-right {
+    width: 100%;
+}
+
+.form-right textarea {
+    width: 100%;
+    height: 296px;
+    padding: 22px 20px;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    outline: none;
+    resize: both;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form-right textarea::placeholder {
+    color: #cbd0d6;
+    opacity: 1;
+}
+
+/* BUTTON */
+
+.form-button {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.form-button button {
+    padding: 24px 40px;
+    width: 231px;
+    height: 69px;
+    background-color: #b99408;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-button button:hover {
+    background-color: #d9aa00;
 }
