@@ -273,3 +273,57 @@
 .portofolio-img:hover .portfolio-overlay {
     opacity: 0.9;
 }
+.item-list > li 
+{
+    display: flex;
+    justify-content: center;
+}
+.item-list
+{
+    display: flex;
+    flex-direction: column;
+}
+.about-item-img > img
+{
+    width: 150px;
+    height: 150px;
+    padding : 5px;
+    background-color: rgb(194, 193, 193);
+    border-radius: 100%;
+    margin-left : 50px;
+    margin-right : 50px;
+}
+.about-item-text
+{
+    width : 400px;
+    height: 300px;
+}
+.about-item-text > p
+{
+    font-size: large;
+}
+.empty
+{
+    width : 400px;
+    height: 300px;
+}
+.about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-title > h1
+{
+    text-align: center;
+    justify-content: center;
+}
+.about-title > p
+{
+    text-align: center;
+    justify-content: center;
+}
+.about-title
+{
+    margin : 70px;
+}
